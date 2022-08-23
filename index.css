@@ -45,15 +45,16 @@ header {
 
 .header-left{
     display: flex;
+    justify-content: center;
 }
 
 .profile-card{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    background-color: var(--raisin-black);
+    background-color: var(--platinum);
     padding: 2rem;
-
+    width: 360px;
 }
 
 .selfie{
@@ -97,19 +98,29 @@ main {
     height: auto;
 }
 
+main h2{
+    color:var(--raisin-black);
+}
+
+ul img {
+    width: 48px;
+    height: auto;
+}
+
 li{
     list-style-type: none;
     font-size: 1.3rem;
 }
 
 h1{
-    color: var(--platinum);
+    color: var(--raisin-black);
 }
 
 h2{
     font-size: 2rem;
+    color: var(--platinum);
 }
 
-h2, h4{
+h4{
     color: var(--raisin-black);
 }
